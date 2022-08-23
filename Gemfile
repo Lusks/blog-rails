@@ -33,9 +33,6 @@ gem "jbuilder"
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
-# Make errors better looking
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
-
 # Bulma CSS
 gem 'bulma-rails', '~> 0.9.3'
 
@@ -70,7 +67,10 @@ group :development do
   gem 'guard', '~> 2.18'
 
   # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+
+  # Make errors better looking
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
