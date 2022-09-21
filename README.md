@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a blog made with Ruby on Rails. In this blog the user can create, edit and delete posts. You can also add comments to a chosen post.
 
-Things you may want to cover:
+Project configuration:
 
-* Ruby version
+* Ruby version: 3.0.0,
 
-* System dependencies
+* Rails version: 7.0.3.1,
 
-* Configuration
+* Front-end: Bulma,
 
-* Database creation
+* Database Manager: PostgreSQL,
 
-* Database initialization
+* Additional gems: guard, guard live-reload and better errors,
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* How to initialize the project: rails s (add "sudo service postgresql start" beforehand if in WSL)
